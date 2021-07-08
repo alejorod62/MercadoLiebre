@@ -24,7 +24,13 @@ color: green;
 padding-left: 30px;
 }
 
-.descripciones{font-size: 16px; color: gray;}
+.descripciones{font-size: 16px; color: white;}
+
+.descripciones:hover { color: gray;}
+
+.buttonlog { background-color: blue;}
+
+.buttonlog:hover{background-color: #0022AA;}
 
 footer{text-align: center;
 padding-top: 10%;
