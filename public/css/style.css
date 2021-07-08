@@ -5,7 +5,8 @@ body {font-family:  'Roboto', sans-serif ;
 }
 
 .header {background-color: #EAC926;
-    background-size:cover;}
+    background-size:cover;
+padding-top: 2vh;}
 
 .top {
     display: flex;}
@@ -35,9 +36,11 @@ margin: auto;}
 
 #mano{text-align: center;}
 
-.buscador {width: 20%;}
+.buscador {width: 20%;
+position: relative;
+left: 10%;}
 
-#imput {margin-left: 30px; margin-top: 20%;}
+#imput {margin: auto; width: 100%;}
 
 #logo {margin-left: 30px; width: 30%;padding-left: 0%;}
 
@@ -101,7 +104,7 @@ text-align: center;}
 margin: auto;}
 
 
-        @media (min-width: 480px){
+        @media (min-width: 600px){
              body {box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 ) }
             #mobile {display: block}
             #hambur {display:none}
