@@ -80,8 +80,17 @@
   <h2>Crear Cuenta</h2>
   <form class="row g-3">
       <div class="col-md-6">
+        <label for="inputnombre4" class="form-label">Nombre y apellido</label>
+        <input type="nombre" class="form-control" id="inputnombre4">
+      </div>
+      <br>
+      <div class="col-md-6">
         <label for="inputEmail4" class="form-label">Correo electrónico</label>
         <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputnombre4" class="form-label">Nombre de usuario</label>
+        <input type="usuario" class="form-control" id="inputusuario4">
       </div>
       <div class="col-md-6">
         <label for="inputPassword4" class="form-label">Contraseña</label>
@@ -92,8 +101,8 @@
         <input type="text" class="form-control" id="inputAddress" >
       </div>
       <div class="col-12">
-        <label for="inputAddress2" class="form-label">Address 2</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        <label for="inputdate2" class="form-label">Fecha de nacimiento</label>
+        <input type="date" class="form-control" id="inputdate">
       </div>
       <div class="col-md-6">
         <label for="inputCity" class="form-label">Ciudad</label>
@@ -103,7 +112,12 @@
         <label for="inputState" class="form-label">País</label>
         <select id="inputState" class="form-select">
           <option selected>Selecciona...</option>
-          <option>...</option>
+          <option>Argentina</option>
+          <option>Uruguay</option>
+          <option>Peru</option>
+          <option>Bolivia</option>
+          <option>Colombia</option>
+          <option>Paraguay</option>
         </select>
       </div>
       <div class="col-md-2">
@@ -111,15 +125,65 @@
         <input type="text" class="form-control" id="inputZip">
       </div>
       <div class="col-12">
+        <label class="form-check-label" for="gridCheck">
+          Perfil del usuario
+        </label>
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="gridCheck">
           <label class="form-check-label" for="gridCheck">
-            Acepto "Términos y condiciones"
+            Comprador
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Vendedor
           </label>
         </div>
       </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <label class="form-check-label" for="gridCheck">
+          Intereses
+        </label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Electrodomesticos
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Vehiculos
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Moda
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Hogar
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Deportes
+          </label>
+        </div>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Acepto "Términos y condiciones"
+        </label>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Finalizar</button>
       </div>
     </form>
 </section>
