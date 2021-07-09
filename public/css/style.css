@@ -32,6 +32,10 @@ padding-left: 30px;
 
 .buttonlog:hover{background-color: #0022AA;}
 
+.myfoot div{display: flex; }
+
+.subfoot{display: flex; flex-direction: column;}
+
 footer{text-align: center;
 padding-top: 10%;
 margin: auto;}
